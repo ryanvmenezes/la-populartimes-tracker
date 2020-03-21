@@ -1,2 +1,2 @@
 pytz==2019.3
-git+https://github.com/m-wrzr/populartimes==2.0
+git+git://github.com/m-wrzr/populartimes@2.0
