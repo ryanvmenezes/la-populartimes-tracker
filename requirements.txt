@@ -1,0 +1,2 @@
+pytz==2019.3
+populartimes==2.0
