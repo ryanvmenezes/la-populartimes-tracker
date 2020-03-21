@@ -17,16 +17,16 @@ jobs:
             git add .
             git config --global user.email "updatebot@example.com"
             git config --global user.name "Updatebot"
-            git commit -m "new ci update at :40" && \
+            git commit -m "new ci update" && \
               git push -q https://${GH_TOKEN}@github.com/ryanvmenezes/la-populartimes-tracker.git master \
               || true
 
 workflows:
   version: 2
-  hourly:
+  hourly2:
     triggers:
       - schedule:
-          cron: "50 * * * *"
+          cron: "*/2 * * * *"
           filters:
             branches:
               only:
