@@ -18,7 +18,7 @@ jobs:
             git config --global user.email "updatebot@example.com"
             git config --global user.name "Updatebot"
             git commit -m "new ci update" && \
-              git push -q https://github.com/ryanvmenezes/la-populartimes-tracker.git master \
+              git push -q hhttps://${GITHUB_PERSONAL_TOKEN}@github.com/ryanvmenezes/la-populartimes-tracker.git circleci-project-setup \
               || true
 
 workflows:
