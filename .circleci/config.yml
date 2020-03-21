@@ -35,4 +35,4 @@ workflows:
               only:
                 - master
     jobs:
-      - fetch_and_commit
+      - build-and-test
