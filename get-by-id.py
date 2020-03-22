@@ -1,12 +1,11 @@
-#!/usr/bin/env python
-
+import sys
 import csv
 import json
 import pytz
 import datetime
 import populartimes as pt
 
-api_key = 'AIzaSyA92zfr0K_Fya4-UTaiVuqlLMcjpMPXh2M'
+api_key = sys.argv[1]
 
 places = []
 with open('places.csv') as infile:

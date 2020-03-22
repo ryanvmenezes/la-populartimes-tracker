@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            python get-by-id.py
+            python get-by-id.py ${GMAPS_KEY}
             git add .
             git config --global user.email "updatebot@example.com"
             git config --global user.name "Updatebot"
@@ -23,7 +23,10 @@ jobs:
 
 workflows:
   version: 2
-  hourly2:
+  build:
+    jobs:
+      - build-and-test
+  hourly:
     triggers:
       - schedule:
           cron: "1 * * * *"
