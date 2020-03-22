@@ -23,9 +23,9 @@ jobs:
 
 workflows:
   version: 2
-  build:
-    jobs:
-      - build-and-test
+  # build:
+  #   jobs:
+  #     - build-and-test
   hourly:
     triggers:
       - schedule:
