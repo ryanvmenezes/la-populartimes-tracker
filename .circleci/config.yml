@@ -12,14 +12,8 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: |
-            python get-by-id.py
-            git add .
-            git config --global user.email "updatebot@example.com"
-            git config --global user.name "Updatebot"
-            git commit -m "new ci update" && \
-              git push -q https://${GH_TOKEN}@github.com/ryanvmenezes/la-populartimes-tracker.git circleci-project-setup \
-              || true
+          command: ./manage.py test
+          name: Test
 
 workflows:
   main:
