@@ -64,6 +64,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJ-10QkkO2woARiRXgX24o-Ms,Costco Wholesale,0,Tue,9,0
 2020-03-24T17:31:15Z,ChIJ-10QkkO2woARiRXgX24o-Ms,Costco Wholesale,53,Tue,10,30
 2020-03-24T18:31:28Z,ChIJ-10QkkO2woARiRXgX24o-Ms,Costco Wholesale,46,Tue,11,43
+2020-03-24T19:31:31Z,ChIJ-10QkkO2woARiRXgX24o-Ms,Costco Wholesale,43,Tue,12,50
 2020-03-21T07:01:32Z,ChIJ1asLRlSwwoARcbzH4K6wTPc,Dockweiler Beach,0,Sat,0,0
 2020-03-21T08:01:52Z,ChIJ1asLRlSwwoARcbzH4K6wTPc,Dockweiler Beach,0,Sat,1,0
 2020-03-21T09:01:22Z,ChIJ1asLRlSwwoARcbzH4K6wTPc,Dockweiler Beach,0,Sat,2,0
@@ -149,6 +150,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJ1asLRlSwwoARcbzH4K6wTPc,Dockweiler Beach,16,Tue,9,15
 2020-03-24T17:31:15Z,ChIJ1asLRlSwwoARcbzH4K6wTPc,Dockweiler Beach,15,Tue,10,20
 2020-03-24T18:31:28Z,ChIJ1asLRlSwwoARcbzH4K6wTPc,Dockweiler Beach,16,Tue,11,25
+2020-03-24T19:31:31Z,ChIJ1asLRlSwwoARcbzH4K6wTPc,Dockweiler Beach,20,Tue,12,29
 2020-03-22T03:01:38Z,ChIJ53JDjkvGwoAR2NMG6_1OnUg,Grand Central Market,0,Sat,20,36
 2020-03-22T04:01:34Z,ChIJ53JDjkvGwoAR2NMG6_1OnUg,Grand Central Market,0,Sat,21,21
 2020-03-22T05:01:46Z,ChIJ53JDjkvGwoAR2NMG6_1OnUg,Grand Central Market,0,Sat,22,0
@@ -214,6 +216,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJ53JDjkvGwoAR2NMG6_1OnUg,Grand Central Market,11,Tue,9,17
 2020-03-24T17:31:15Z,ChIJ53JDjkvGwoAR2NMG6_1OnUg,Grand Central Market,14,Tue,10,32
 2020-03-24T18:31:28Z,ChIJ53JDjkvGwoAR2NMG6_1OnUg,Grand Central Market,16,Tue,11,47
+2020-03-24T19:31:31Z,ChIJ53JDjkvGwoAR2NMG6_1OnUg,Grand Central Market,16,Tue,12,57
 2020-03-22T03:01:38Z,ChIJ5d23nLe6woAR_p8Zb9wfX2M,Venice Skate Park,0,Sat,20,8
 2020-03-22T04:01:34Z,ChIJ5d23nLe6woAR_p8Zb9wfX2M,Venice Skate Park,0,Sat,21,5
 2020-03-22T05:01:46Z,ChIJ5d23nLe6woAR_p8Zb9wfX2M,Venice Skate Park,0,Sat,22,4
@@ -279,6 +282,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJ5d23nLe6woAR_p8Zb9wfX2M,Venice Skate Park,0,Tue,9,8
 2020-03-24T17:31:15Z,ChIJ5d23nLe6woAR_p8Zb9wfX2M,Venice Skate Park,0,Tue,10,9
 2020-03-24T18:31:28Z,ChIJ5d23nLe6woAR_p8Zb9wfX2M,Venice Skate Park,0,Tue,11,11
+2020-03-24T19:31:31Z,ChIJ5d23nLe6woAR_p8Zb9wfX2M,Venice Skate Park,0,Tue,12,15
 2020-03-22T03:01:38Z,ChIJ8_9PusG7woARP73y1rIVl2U,Rancho Park Golf Club,47,Sat,20,20
 2020-03-22T04:01:34Z,ChIJ8_9PusG7woARP73y1rIVl2U,Rancho Park Golf Club,22,Sat,21,11
 2020-03-22T05:01:46Z,ChIJ8_9PusG7woARP73y1rIVl2U,Rancho Park Golf Club,0,Sat,22,0
@@ -344,6 +348,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJ8_9PusG7woARP73y1rIVl2U,Rancho Park Golf Club,12,Tue,9,67
 2020-03-24T17:31:15Z,ChIJ8_9PusG7woARP73y1rIVl2U,Rancho Park Golf Club,14,Tue,10,72
 2020-03-24T18:31:28Z,ChIJ8_9PusG7woARP73y1rIVl2U,Rancho Park Golf Club,17,Tue,11,82
+2020-03-24T19:31:31Z,ChIJ8_9PusG7woARP73y1rIVl2U,Rancho Park Golf Club,20,Tue,12,85
 2020-03-22T04:01:34Z,ChIJc1xhAk3bwoARBBlfKQzXKLM,"The Huntington Library, Art Collections, and Botanical Gardens",0,Sat,21,0
 2020-03-22T05:01:46Z,ChIJc1xhAk3bwoARBBlfKQzXKLM,"The Huntington Library, Art Collections, and Botanical Gardens",0,Sat,22,0
 2020-03-22T06:01:38Z,ChIJc1xhAk3bwoARBBlfKQzXKLM,"The Huntington Library, Art Collections, and Botanical Gardens",0,Sat,23,0
@@ -408,6 +413,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJc1xhAk3bwoARBBlfKQzXKLM,"The Huntington Library, Art Collections, and Botanical Gardens",0,Tue,9,0
 2020-03-24T17:31:15Z,ChIJc1xhAk3bwoARBBlfKQzXKLM,"The Huntington Library, Art Collections, and Botanical Gardens",0,Tue,10,0
 2020-03-24T18:31:28Z,ChIJc1xhAk3bwoARBBlfKQzXKLM,"The Huntington Library, Art Collections, and Botanical Gardens",0,Tue,11,0
+2020-03-24T19:31:31Z,ChIJc1xhAk3bwoARBBlfKQzXKLM,"The Huntington Library, Art Collections, and Botanical Gardens",0,Tue,12,0
 2020-03-22T04:01:34Z,ChIJc9UqAiXHwoARRktIsv23_aI,The Museum of Contemporary Art,0,Sat,21,0
 2020-03-22T05:01:46Z,ChIJc9UqAiXHwoARRktIsv23_aI,The Museum of Contemporary Art,0,Sat,22,0
 2020-03-22T06:01:38Z,ChIJc9UqAiXHwoARRktIsv23_aI,The Museum of Contemporary Art,0,Sat,23,0
@@ -472,6 +478,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJc9UqAiXHwoARRktIsv23_aI,The Museum of Contemporary Art,0,Tue,9,0
 2020-03-24T17:31:15Z,ChIJc9UqAiXHwoARRktIsv23_aI,The Museum of Contemporary Art,0,Tue,10,0
 2020-03-24T18:31:28Z,ChIJc9UqAiXHwoARRktIsv23_aI,The Museum of Contemporary Art,0,Tue,11,0
+2020-03-24T19:31:31Z,ChIJc9UqAiXHwoARRktIsv23_aI,The Museum of Contemporary Art,0,Tue,12,0
 2020-03-22T03:01:38Z,ChIJdamfKTTKwoARbsE6x78w1bc,Magic Johnson Park,25,Sat,20,5
 2020-03-22T04:01:34Z,ChIJdamfKTTKwoARbsE6x78w1bc,Magic Johnson Park,0,Sat,21,0
 2020-03-22T05:01:46Z,ChIJdamfKTTKwoARbsE6x78w1bc,Magic Johnson Park,0,Sat,22,0
@@ -537,6 +544,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJdamfKTTKwoARbsE6x78w1bc,Magic Johnson Park,24,Tue,9,26
 2020-03-24T17:31:15Z,ChIJdamfKTTKwoARbsE6x78w1bc,Magic Johnson Park,25,Tue,10,26
 2020-03-24T18:31:28Z,ChIJdamfKTTKwoARbsE6x78w1bc,Magic Johnson Park,25,Tue,11,24
+2020-03-24T19:31:31Z,ChIJdamfKTTKwoARbsE6x78w1bc,Magic Johnson Park,26,Tue,12,26
 2020-03-22T03:01:38Z,ChIJeayCmnSjwoAREoJOwKqMXXw,Temescal Canyon Park,26,Sat,20,1
 2020-03-22T04:01:34Z,ChIJeayCmnSjwoAREoJOwKqMXXw,Temescal Canyon Park,4,Sat,21,0
 2020-03-22T05:01:46Z,ChIJeayCmnSjwoAREoJOwKqMXXw,Temescal Canyon Park,2,Sat,22,0
@@ -602,6 +610,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJeayCmnSjwoAREoJOwKqMXXw,Temescal Canyon Park,14,Tue,9,20
 2020-03-24T17:31:15Z,ChIJeayCmnSjwoAREoJOwKqMXXw,Temescal Canyon Park,12,Tue,10,27
 2020-03-24T18:31:28Z,ChIJeayCmnSjwoAREoJOwKqMXXw,Temescal Canyon Park,13,Tue,11,29
+2020-03-24T19:31:31Z,ChIJeayCmnSjwoAREoJOwKqMXXw,Temescal Canyon Park,9,Tue,12,28
 2020-03-21T07:01:32Z,ChIJhX1uVuC-woARQNzq4-b1Prk,Runyon Canyon Park,1,Sat,0,0
 2020-03-21T08:01:52Z,ChIJhX1uVuC-woARQNzq4-b1Prk,Runyon Canyon Park,1,Sat,1,0
 2020-03-21T09:01:22Z,ChIJhX1uVuC-woARQNzq4-b1Prk,Runyon Canyon Park,1,Sat,2,0
@@ -687,6 +696,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJhX1uVuC-woARQNzq4-b1Prk,Runyon Canyon Park,25,Tue,9,31
 2020-03-24T17:31:15Z,ChIJhX1uVuC-woARQNzq4-b1Prk,Runyon Canyon Park,30,Tue,10,40
 2020-03-24T18:31:28Z,ChIJhX1uVuC-woARQNzq4-b1Prk,Runyon Canyon Park,30,Tue,11,45
+2020-03-24T19:31:31Z,ChIJhX1uVuC-woARQNzq4-b1Prk,Runyon Canyon Park,29,Tue,12,45
 2020-03-22T04:01:34Z,ChIJLY1iIfm-woARTJ4oDF5Z4fo,Runyon Canyon North Entrance,0,Sat,21,3
 2020-03-22T05:01:46Z,ChIJLY1iIfm-woARTJ4oDF5Z4fo,Runyon Canyon North Entrance,4,Sat,22,1
 2020-03-22T06:01:38Z,ChIJLY1iIfm-woARTJ4oDF5Z4fo,Runyon Canyon North Entrance,0,Sat,23,0
@@ -751,6 +761,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJLY1iIfm-woARTJ4oDF5Z4fo,Runyon Canyon North Entrance,19,Tue,9,27
 2020-03-24T17:31:15Z,ChIJLY1iIfm-woARTJ4oDF5Z4fo,Runyon Canyon North Entrance,15,Tue,10,38
 2020-03-24T18:31:28Z,ChIJLY1iIfm-woARTJ4oDF5Z4fo,Runyon Canyon North Entrance,24,Tue,11,46
+2020-03-24T19:31:31Z,ChIJLY1iIfm-woARTJ4oDF5Z4fo,Runyon Canyon North Entrance,22,Tue,12,50
 2020-03-21T07:01:32Z,ChIJm6deTdekwoARTY_RzhoRms0,Santa Monica Pier,6,Sat,0,8
 2020-03-21T08:01:52Z,ChIJm6deTdekwoARTY_RzhoRms0,Santa Monica Pier,5,Sat,1,3
 2020-03-21T09:01:22Z,ChIJm6deTdekwoARTY_RzhoRms0,Santa Monica Pier,5,Sat,2,1
@@ -836,6 +847,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJm6deTdekwoARTY_RzhoRms0,Santa Monica Pier,9,Tue,9,9
 2020-03-24T17:31:15Z,ChIJm6deTdekwoARTY_RzhoRms0,Santa Monica Pier,9,Tue,10,15
 2020-03-24T18:31:28Z,ChIJm6deTdekwoARTY_RzhoRms0,Santa Monica Pier,9,Tue,11,21
+2020-03-24T19:31:31Z,ChIJm6deTdekwoARTY_RzhoRms0,Santa Monica Pier,9,Tue,12,28
 2020-03-22T06:30:47Z,ChIJmduwqMe-woARMBcztG5vm0g,MedMen Los Angeles - West Hollywood,0,Sat,23,0
 2020-03-22T07:30:47Z,ChIJmduwqMe-woARMBcztG5vm0g,MedMen Los Angeles - West Hollywood,0,Sun,0,0
 2020-03-22T08:30:59Z,ChIJmduwqMe-woARMBcztG5vm0g,MedMen Los Angeles - West Hollywood,0,Sun,1,0
@@ -897,6 +909,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJmduwqMe-woARMBcztG5vm0g,MedMen Los Angeles - West Hollywood,13,Tue,9,0
 2020-03-24T17:31:15Z,ChIJmduwqMe-woARMBcztG5vm0g,MedMen Los Angeles - West Hollywood,19,Tue,10,24
 2020-03-24T18:31:28Z,ChIJmduwqMe-woARMBcztG5vm0g,MedMen Los Angeles - West Hollywood,45,Tue,11,32
+2020-03-24T19:31:31Z,ChIJmduwqMe-woARMBcztG5vm0g,MedMen Los Angeles - West Hollywood,39,Tue,12,42
 2020-03-22T06:30:47Z,ChIJo7HdhWKAhYARp5lDOzOnnK0,Montgomery Street,0,Sat,23,21
 2020-03-22T07:30:47Z,ChIJo7HdhWKAhYARp5lDOzOnnK0,Montgomery Street,0,Sun,0,10
 2020-03-22T08:30:59Z,ChIJo7HdhWKAhYARp5lDOzOnnK0,Montgomery Street,0,Sun,1,3
@@ -958,6 +971,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJo7HdhWKAhYARp5lDOzOnnK0,Montgomery Street,6,Tue,9,42
 2020-03-24T17:31:15Z,ChIJo7HdhWKAhYARp5lDOzOnnK0,Montgomery Street,2,Tue,10,32
 2020-03-24T18:31:28Z,ChIJo7HdhWKAhYARp5lDOzOnnK0,Montgomery Street,6,Tue,11,27
+2020-03-24T19:31:31Z,ChIJo7HdhWKAhYARp5lDOzOnnK0,Montgomery Street,9,Tue,12,32
 2020-03-22T06:30:47Z,ChIJOU4Og1t-hYARhMYvt8DAp2g,Public Market Emeryville,0,Sat,23,0
 2020-03-22T07:30:47Z,ChIJOU4Og1t-hYARhMYvt8DAp2g,Public Market Emeryville,0,Sun,0,0
 2020-03-22T08:30:59Z,ChIJOU4Og1t-hYARhMYvt8DAp2g,Public Market Emeryville,0,Sun,1,0
@@ -1019,6 +1033,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJOU4Og1t-hYARhMYvt8DAp2g,Public Market Emeryville,17,Tue,9,26
 2020-03-24T17:31:15Z,ChIJOU4Og1t-hYARhMYvt8DAp2g,Public Market Emeryville,23,Tue,10,36
 2020-03-24T18:31:28Z,ChIJOU4Og1t-hYARhMYvt8DAp2g,Public Market Emeryville,29,Tue,11,58
+2020-03-24T19:31:31Z,ChIJOU4Og1t-hYARhMYvt8DAp2g,Public Market Emeryville,29,Tue,12,80
 2020-03-22T06:30:47Z,ChIJp3CqeRd-j4ARYI0i8e_kGKY,Mission Dolores Park,0,Sat,23,0
 2020-03-22T07:30:47Z,ChIJp3CqeRd-j4ARYI0i8e_kGKY,Mission Dolores Park,0,Sun,0,0
 2020-03-22T08:30:59Z,ChIJp3CqeRd-j4ARYI0i8e_kGKY,Mission Dolores Park,0,Sun,1,0
@@ -1080,6 +1095,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJp3CqeRd-j4ARYI0i8e_kGKY,Mission Dolores Park,7,Tue,9,6
 2020-03-24T17:31:15Z,ChIJp3CqeRd-j4ARYI0i8e_kGKY,Mission Dolores Park,5,Tue,10,8
 2020-03-24T18:31:28Z,ChIJp3CqeRd-j4ARYI0i8e_kGKY,Mission Dolores Park,6,Tue,11,9
+2020-03-24T19:31:31Z,ChIJp3CqeRd-j4ARYI0i8e_kGKY,Mission Dolores Park,9,Tue,12,11
 2020-03-22T04:01:34Z,ChIJsXqcyjy5woARNz6sOh0ZmwA,Los Angeles County Museum of Art,0,Sat,21,0
 2020-03-22T05:01:46Z,ChIJsXqcyjy5woARNz6sOh0ZmwA,Los Angeles County Museum of Art,0,Sat,22,0
 2020-03-22T06:01:38Z,ChIJsXqcyjy5woARNz6sOh0ZmwA,Los Angeles County Museum of Art,0,Sat,23,0
@@ -1144,6 +1160,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJsXqcyjy5woARNz6sOh0ZmwA,Los Angeles County Museum of Art,0,Tue,9,0
 2020-03-24T17:31:15Z,ChIJsXqcyjy5woARNz6sOh0ZmwA,Los Angeles County Museum of Art,0,Tue,10,0
 2020-03-24T18:31:28Z,ChIJsXqcyjy5woARNz6sOh0ZmwA,Los Angeles County Museum of Art,33,Tue,11,31
+2020-03-24T19:31:31Z,ChIJsXqcyjy5woARNz6sOh0ZmwA,Los Angeles County Museum of Art,20,Tue,12,40
 2020-03-22T06:30:47Z,ChIJt3HwrOJ9j4ARbW6uAcmhz7I,Twin Peaks,9,Sat,23,29
 2020-03-22T07:30:47Z,ChIJt3HwrOJ9j4ARbW6uAcmhz7I,Twin Peaks,0,Sun,0,0
 2020-03-22T08:30:59Z,ChIJt3HwrOJ9j4ARbW6uAcmhz7I,Twin Peaks,0,Sun,1,0
@@ -1205,6 +1222,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJt3HwrOJ9j4ARbW6uAcmhz7I,Twin Peaks,13,Tue,9,15
 2020-03-24T17:31:15Z,ChIJt3HwrOJ9j4ARbW6uAcmhz7I,Twin Peaks,13,Tue,10,19
 2020-03-24T18:31:28Z,ChIJt3HwrOJ9j4ARbW6uAcmhz7I,Twin Peaks,13,Tue,11,22
+2020-03-24T19:31:31Z,ChIJt3HwrOJ9j4ARbW6uAcmhz7I,Twin Peaks,14,Tue,12,22
 2020-03-22T06:30:47Z,ChIJtyRV5LCAj4AR07w1T1ZHdPo,12th St / Oakland,2,Sat,23,15
 2020-03-22T07:30:47Z,ChIJtyRV5LCAj4AR07w1T1ZHdPo,12th St / Oakland,1,Sun,0,11
 2020-03-22T08:30:59Z,ChIJtyRV5LCAj4AR07w1T1ZHdPo,12th St / Oakland,1,Sun,1,6
@@ -1266,6 +1284,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJtyRV5LCAj4AR07w1T1ZHdPo,12th St / Oakland,14,Tue,9,54
 2020-03-24T17:31:15Z,ChIJtyRV5LCAj4AR07w1T1ZHdPo,12th St / Oakland,13,Tue,10,64
 2020-03-24T18:31:28Z,ChIJtyRV5LCAj4AR07w1T1ZHdPo,12th St / Oakland,14,Tue,11,71
+2020-03-24T19:31:31Z,ChIJtyRV5LCAj4AR07w1T1ZHdPo,12th St / Oakland,14,Tue,12,75
 2020-03-22T06:30:47Z,ChIJU889QiB-j4ARzQofqaFrMJU,Zeitgeist,9,Sat,23,68
 2020-03-22T07:30:47Z,ChIJU889QiB-j4ARzQofqaFrMJU,Zeitgeist,1,Sun,0,52
 2020-03-22T08:30:59Z,ChIJU889QiB-j4ARzQofqaFrMJU,Zeitgeist,0,Sun,1,26
@@ -1327,6 +1346,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJU889QiB-j4ARzQofqaFrMJU,Zeitgeist,0,Tue,9,0
 2020-03-24T17:31:15Z,ChIJU889QiB-j4ARzQofqaFrMJU,Zeitgeist,0,Tue,10,0
 2020-03-24T18:31:28Z,ChIJU889QiB-j4ARzQofqaFrMJU,Zeitgeist,0,Tue,11,4
+2020-03-24T19:31:31Z,ChIJU889QiB-j4ARzQofqaFrMJU,Zeitgeist,0,Tue,12,7
 2020-03-22T03:01:38Z,ChIJVbrtcKoh3YARKN871uXwqCI,Huntington State Beach,63,Sat,20,20
 2020-03-22T04:01:34Z,ChIJVbrtcKoh3YARKN871uXwqCI,Huntington State Beach,29,Sat,21,11
 2020-03-22T05:01:46Z,ChIJVbrtcKoh3YARKN871uXwqCI,Huntington State Beach,0,Sat,22,0
@@ -1392,6 +1412,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJVbrtcKoh3YARKN871uXwqCI,Huntington State Beach,13,Tue,9,14
 2020-03-24T17:31:15Z,ChIJVbrtcKoh3YARKN871uXwqCI,Huntington State Beach,21,Tue,10,18
 2020-03-24T18:31:28Z,ChIJVbrtcKoh3YARKN871uXwqCI,Huntington State Beach,20,Tue,11,21
+2020-03-24T19:31:31Z,ChIJVbrtcKoh3YARKN871uXwqCI,Huntington State Beach,22,Tue,12,20
 2020-03-22T03:01:38Z,ChIJVUXEro66woAR9eHVdsY_-sk,Costco Wholesale,0,Sat,20,0
 2020-03-22T04:01:34Z,ChIJVUXEro66woAR9eHVdsY_-sk,Costco Wholesale,0,Sat,21,0
 2020-03-22T05:01:46Z,ChIJVUXEro66woAR9eHVdsY_-sk,Costco Wholesale,0,Sat,22,0
@@ -1457,6 +1478,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJVUXEro66woAR9eHVdsY_-sk,Costco Wholesale,66,Tue,9,30
 2020-03-24T17:31:15Z,ChIJVUXEro66woAR9eHVdsY_-sk,Costco Wholesale,55,Tue,10,44
 2020-03-24T18:31:28Z,ChIJVUXEro66woAR9eHVdsY_-sk,Costco Wholesale,51,Tue,11,58
+2020-03-24T19:31:31Z,ChIJVUXEro66woAR9eHVdsY_-sk,Costco Wholesale,49,Tue,12,67
 2020-03-21T07:01:32Z,ChIJVVVVVXjJwoARavx_RXJ-v1o,Watts Towers Arts Center,0,Sat,0,0
 2020-03-21T08:01:52Z,ChIJVVVVVXjJwoARavx_RXJ-v1o,Watts Towers Arts Center,0,Sat,1,0
 2020-03-21T09:01:22Z,ChIJVVVVVXjJwoARavx_RXJ-v1o,Watts Towers Arts Center,0,Sat,2,0
@@ -1542,7 +1564,9 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJVVVVVXjJwoARavx_RXJ-v1o,Watts Towers Arts Center,0,Tue,9,0
 2020-03-24T17:31:15Z,ChIJVVVVVXjJwoARavx_RXJ-v1o,Watts Towers Arts Center,18,Tue,10,19
 2020-03-24T18:31:28Z,ChIJVVVVVXjJwoARavx_RXJ-v1o,Watts Towers Arts Center,13,Tue,11,26
+2020-03-24T19:31:31Z,ChIJVVVVVXjJwoARavx_RXJ-v1o,Watts Towers Arts Center,12,Tue,12,30
 2020-03-24T18:31:28Z,ChIJxRCJY4B-hYAR8pED77RBzRY,Berkeley Bowl,42,Tue,11,53
+2020-03-24T19:31:31Z,ChIJxRCJY4B-hYAR8pED77RBzRY,Berkeley Bowl,40,Tue,12,59
 2020-03-22T06:30:47Z,ChIJY_dFYHKHhYARMKc772iLvnE,Golden Gate Park,1,Sat,23,10
 2020-03-22T07:30:47Z,ChIJY_dFYHKHhYARMKc772iLvnE,Golden Gate Park,1,Sun,0,5
 2020-03-22T08:30:59Z,ChIJY_dFYHKHhYARMKc772iLvnE,Golden Gate Park,0,Sun,1,2
@@ -1604,6 +1628,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJY_dFYHKHhYARMKc772iLvnE,Golden Gate Park,11,Tue,9,15
 2020-03-24T17:31:15Z,ChIJY_dFYHKHhYARMKc772iLvnE,Golden Gate Park,13,Tue,10,22
 2020-03-24T18:31:28Z,ChIJY_dFYHKHhYARMKc772iLvnE,Golden Gate Park,15,Tue,11,29
+2020-03-24T19:31:31Z,ChIJY_dFYHKHhYARMKc772iLvnE,Golden Gate Park,15,Tue,12,34
 2020-03-21T07:01:32Z,ChIJywjU6WG_woAR3NrWwrEH_3M,Griffith Observatory,0,Sat,0,0
 2020-03-21T08:01:52Z,ChIJywjU6WG_woAR3NrWwrEH_3M,Griffith Observatory,0,Sat,1,0
 2020-03-21T09:01:22Z,ChIJywjU6WG_woAR3NrWwrEH_3M,Griffith Observatory,0,Sat,2,0
@@ -1689,6 +1714,7 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJywjU6WG_woAR3NrWwrEH_3M,Griffith Observatory,0,Tue,9,0
 2020-03-24T17:31:15Z,ChIJywjU6WG_woAR3NrWwrEH_3M,Griffith Observatory,0,Tue,10,0
 2020-03-24T18:31:28Z,ChIJywjU6WG_woAR3NrWwrEH_3M,Griffith Observatory,0,Tue,11,0
+2020-03-24T19:31:31Z,ChIJywjU6WG_woAR3NrWwrEH_3M,Griffith Observatory,20,Tue,12,30
 2020-03-21T07:01:32Z,ChIJz7SQuzfHwoAREE6nSE8ZMmo,Los Angeles Union Station,1,Sat,0,14
 2020-03-21T08:01:52Z,ChIJz7SQuzfHwoAREE6nSE8ZMmo,Los Angeles Union Station,1,Sat,1,8
 2020-03-21T09:01:22Z,ChIJz7SQuzfHwoAREE6nSE8ZMmo,Los Angeles Union Station,1,Sat,2,6
@@ -1774,3 +1800,4 @@ datadatetime,id,name,current_popularity,dayofweek,hourofday,exppopularity
 2020-03-24T16:34:14Z,ChIJz7SQuzfHwoAREE6nSE8ZMmo,Los Angeles Union Station,10,Tue,9,51
 2020-03-24T17:31:15Z,ChIJz7SQuzfHwoAREE6nSE8ZMmo,Los Angeles Union Station,8,Tue,10,41
 2020-03-24T18:31:28Z,ChIJz7SQuzfHwoAREE6nSE8ZMmo,Los Angeles Union Station,6,Tue,11,31
+2020-03-24T19:31:31Z,ChIJz7SQuzfHwoAREE6nSE8ZMmo,Los Angeles Union Station,9,Tue,12,30
