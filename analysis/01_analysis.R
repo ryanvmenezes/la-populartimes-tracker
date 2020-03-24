@@ -5,12 +5,14 @@ library(tidyverse)
 # raw data
 
 data = tibble(file = str_c('output/', list.files('output/'))) %>% 
+  arrange(file) %>% 
   mutate(
     datadatetime = str_replace(file, 'output/', ''),
     datadatetime = str_replace(datadatetime, '.json', ''),
-    datadatetime = lubridate::as_datetime(datadatetime, tz = 'America/Los_Angeles'),
+    datadatetime = as_datetime(datadatetime, tz = 'America/Los_Angeles'),
     jsondata = map(file, fromJSON),
-  )
+  ) %>% 
+  filter(date(datadatetime) > make_date(2020, 3, 20)) # start of observations
 
 data
 
@@ -128,9 +130,5 @@ popularity.expected = currentpop %>%
 
 popularity.expected
 
-
-# popularity.expected %>% 
-#   ggplot(aes(x = datadatetime)) +
-#   geom_line(aes(y = current_popularity)) +
-#   geom_line(aes(y = exppopularity), color = 'red') +
-#   facet_wrap(. ~ name)
+popularity.expected %>% 
+  write_csv('analysis/popularity-expected.csv')
