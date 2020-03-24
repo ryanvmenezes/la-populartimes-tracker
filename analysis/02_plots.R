@@ -1,4 +1,5 @@
 library(tidyverse)
+library(lubridate)
 
 places = read_csv('places.csv')
 
@@ -10,7 +11,8 @@ popularity = read_csv('analysis/popularity-expected.csv') %>%
     places %>% select(venuename, typeofspace, id = gmapsid)
   ) %>% 
   select(datadatetime, venuename, typeofspace, current = current_popularity, expected = exppopularity) %>% 
-  pivot_longer(cols = c(current, expected), names_to = 'popularity.type', values_to = 'popularity')
+  pivot_longer(cols = c(current, expected), names_to = 'popularity.type', values_to = 'popularity') %>% 
+  arrange(venuename, datadatetime)
 
 popularity
 
@@ -38,3 +40,18 @@ popularity %>%
     save = walk2(plot, typeofspace, ~ggsave(str_c('analysis/', .y, '.png'), .x, units = 'in', width = 11, height = 7))
   )
 
+writetime = stamp('2020-03-20 23:30:47')
+
+popularity %>%
+  mutate(
+    datadatetime = writetime(datadatetime)
+  ) %>% 
+  write_csv('analysis/foottraffic-clean.csv')
+
+popularity %>%
+  mutate(
+    datadatetime = writetime(datadatetime),
+    popularity.type = str_c(popularity.type, '.popularity')
+  ) %>% 
+  pivot_wider(names_from = popularity.type, values_from = popularity) %>% 
+  write_csv('analysis/foottraffic-clean-wide.csv')
