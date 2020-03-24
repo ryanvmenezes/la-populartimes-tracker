@@ -103,10 +103,12 @@ poptimes = poptimesclean %>%
 poptimes
 
 # how often are the popular times changing?
+# if any of these are n > 1, there's been a change in the popular times data
 
 poptimes %>% 
   distinct_at(vars(-datadatetime)) %>% 
-  count(id, name)
+  count(id, name) %>% 
+  filter(n > 1)
 
 # joining currentpopularity and exppopularity for that hour
 

@@ -18,7 +18,8 @@ comparison.chart = popularity %>%
   ggplot(aes(x = datadatetime, y = popularity, color = popularity.type)) +
   geom_line() +
   facet_wrap(. ~ venuename) +
-  theme_minimal
+  theme(axis.text.x = element_text(angle = 90))
+  theme_minimal()
 
 comparison.chart
 
