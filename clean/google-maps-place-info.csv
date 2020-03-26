@@ -1,0 +1,29 @@
+id,name,address,types,coordinates.lat,coordinates.lng
+ChIJywjU6WG_woAR3NrWwrEH_3M,Griffith Observatory,"2800 E Observatory Rd, Los Angeles, CA 90027, USA",tourist_attraction|museum|point_of_interest|establishment,34.1184341,-118.3003935
+ChIJ1asLRlSwwoARcbzH4K6wTPc,Dockweiler Beach,"12000 Vista Del Mar, Playa Del Rey, CA 90293, USA",tourist_attraction|park|point_of_interest|establishment,33.93053039999999,-118.4356632
+ChIJz7SQuzfHwoAREE6nSE8ZMmo,Los Angeles Union Station,"800 N Alameda St, Los Angeles, CA 90012, USA",point_of_interest|establishment,34.0560036,-118.2374174
+ChIJhX1uVuC-woARQNzq4-b1Prk,Runyon Canyon Park,"2000 N Fuller Ave, Los Angeles, CA 90046, USA",park|tourist_attraction|point_of_interest|establishment,34.1052437,-118.3489574
+ChIJm6deTdekwoARTY_RzhoRms0,Santa Monica Pier,"200 Santa Monica Pier, Santa Monica, CA 90401, USA",tourist_attraction|travel_agency|point_of_interest|establishment,34.00992149999999,-118.4960063
+ChIJhcGq9Iy7woARs8VXy7WsEZ0,Westfield Century City,"10250 Santa Monica Blvd, Los Angeles, CA 90067, USA",shopping_mall|department_store|movie_theater|shoe_store|restaurant|food|point_of_interest|clothing_store|store|establishment,34.0586592,-118.4190309
+ChIJVVVVVXjJwoARavx_RXJ-v1o,Watts Towers Arts Center,"1727 E 107th St, Los Angeles, CA 90002, USA",tourist_attraction|point_of_interest|establishment,33.9388598,-118.2419477
+ChIJ53JDjkvGwoAR2NMG6_1OnUg,Grand Central Market,"317 S Broadway, Los Angeles, CA 90013, USA",tourist_attraction|food|point_of_interest|establishment,34.05065,-118.2487972
+ChIJ-10QkkO2woARiRXgX24o-Ms,Costco Wholesale,"3560 W Century Blvd, Inglewood, CA 90303, USA",department_store|point_of_interest|store|establishment,33.9427136,-118.3334172
+ChIJVUXEro66woAR9eHVdsY_-sk,Costco Wholesale,"13463 Washington Blvd, Marina Del Rey, CA 90292, USA",department_store|point_of_interest|store|establishment,33.9927636,-118.4465308
+ChIJ8_9PusG7woARP73y1rIVl2U,Rancho Park Golf Club,"10460 W Pico Blvd, Los Angeles, CA 90064, USA",tourist_attraction|point_of_interest|establishment,34.04355659999999,-118.4122323
+ChIJdamfKTTKwoARbsE6x78w1bc,Magic Johnson Park,"905 E El Segundo Blvd, Los Angeles, CA 90059, USA",park|tourist_attraction|point_of_interest|establishment,33.9197168,-118.2638787
+ChIJVbrtcKoh3YARKN871uXwqCI,Huntington State Beach,"21601 Pacific Coast Hwy, Huntington Beach, CA 92646, USA",tourist_attraction|park|point_of_interest|establishment,33.6380444,-117.9736122
+ChIJeayCmnSjwoAREoJOwKqMXXw,Temescal Canyon Park,"15900 Pacific Coast Hwy, Pacific Palisades, CA 90272, USA",park|tourist_attraction|point_of_interest|establishment,34.0573715,-118.5257901
+ChIJ5d23nLe6woAR_p8Zb9wfX2M,Venice Skate Park,"1800 Ocean Front Walk, Venice, CA 90291, USA",tourist_attraction|point_of_interest|establishment,33.98706,-118.4755252
+ChIJc9UqAiXHwoARRktIsv23_aI,The Museum of Contemporary Art,"250 S Grand Ave, Los Angeles, CA 90012, USA",museum|point_of_interest|establishment,34.0533437,-118.2503598
+ChIJsXqcyjy5woARNz6sOh0ZmwA,Los Angeles County Museum of Art,"5905 Wilshire Blvd, Los Angeles, CA 90036, USA",art_gallery|tourist_attraction|museum|point_of_interest|establishment,34.0639323,-118.3592293
+ChIJLY1iIfm-woARTJ4oDF5Z4fo,Runyon Canyon North Entrance,"7317 Mulholland Dr, Los Angeles, CA 90046, USA",park|tourist_attraction|point_of_interest|establishment,34.1193155,-118.353079
+ChIJc1xhAk3bwoARBBlfKQzXKLM,"The Huntington Library, Art Collections, and Botanical Gardens","1151 Oxford Rd, San Marino, CA 91108, USA",library|art_gallery|tourist_attraction|museum|park|point_of_interest|establishment,34.12904519999999,-118.1145242
+ChIJmduwqMe-woARMBcztG5vm0g,MedMen Los Angeles - West Hollywood,"8208 Santa Monica Blvd, West Hollywood, CA 90046, USA",point_of_interest|store|establishment,34.0906212,-118.367298
+ChIJY_dFYHKHhYARMKc772iLvnE,Golden Gate Park,"San Francisco, CA, USA",park|tourist_attraction|point_of_interest|establishment,37.7694208,-122.4862138
+ChIJU889QiB-j4ARzQofqaFrMJU,Zeitgeist,"199 Valencia St, San Francisco, CA 94103, USA",bar|restaurant|food|point_of_interest|establishment,37.77002299999999,-122.4221172
+ChIJp3CqeRd-j4ARYI0i8e_kGKY,Mission Dolores Park,"Dolores St &, 19th St, San Francisco, CA 94114, USA",park|tourist_attraction|point_of_interest|establishment,37.75958609999999,-122.4269083
+ChIJt3HwrOJ9j4ARbW6uAcmhz7I,Twin Peaks,"501 Twin Peaks Blvd, San Francisco, CA 94114, USA",park|point_of_interest|establishment,37.75415359999999,-122.4471247
+ChIJOU4Og1t-hYARhMYvt8DAp2g,Public Market Emeryville,"5959 Shellmound St, Emeryville, CA 94608, USA",shopping_mall|restaurant|food|point_of_interest|establishment,37.8413164,-122.2937355
+ChIJo7HdhWKAhYARp5lDOzOnnK0,Montgomery Street,"598 Market St, San Francisco, CA 94104, USA",subway_station|transit_station|point_of_interest|establishment,37.7893598,-122.4013317
+ChIJtyRV5LCAj4AR07w1T1ZHdPo,12th St / Oakland,"1245 Broadway, Oakland, CA 94612, USA",subway_station|transit_station|point_of_interest|establishment,37.8034662,-122.2716016
+ChIJxRCJY4B-hYAR8pED77RBzRY,Berkeley Bowl,"2020 Oregon St, Berkeley, CA 94703, USA",supermarket|grocery_or_supermarket|food|point_of_interest|store|establishment,37.85706099999999,-122.267212
