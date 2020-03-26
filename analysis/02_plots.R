@@ -55,3 +55,51 @@ popularity %>%
   ) %>% 
   pivot_wider(names_from = popularity.type, values_from = popularity) %>% 
   write_csv('analysis/foottraffic-clean-wide.csv')
+
+
+popularity %>% 
+  filter(venuename %in% c('L.A. Union Station','Temescal Canyon Park','MedMen WeHo','Santa Monica Pier', 'LACMA')) %>% 
+  group_by(venuename) %>% 
+  nest() %>% 
+  mutate(
+    plot = map2(
+      data,
+      venuename,
+      ~.x %>% 
+        ggplot(aes(datadatetime, popularity, fill = popularity.type)) +
+        geom_bar(stat = "identity", position = 'dodge') +
+        ggtitle(.y) +
+        scale_fill_brewer(palette = 'Accent') +
+        theme_minimal()
+    ),
+    save = walk2(plot, venuename, ~ggsave(str_c('analysis/', .y, '.png'), .x, units = 'in', width = 11, height = 7))
+  )
+
+popularity %>% 
+  mutate(datadatetime = floor_date(datadatetime, unit = 'hour')) %>% 
+  filter(venuename %in% c('L.A. Union Station','Temescal Canyon Park','MedMen WeHo','Santa Monica Pier', 'LACMA', 'Dockweiler Beach', 'Grand Central Market')) %>%
+  distinct(datadatetime, venuename, typeofspace, popularity.type, .keep_all = TRUE) %>% 
+  pivot_wider(names_from = popularity.type, values_from = popularity) %>% 
+  group_by(venuename) %>% 
+  nest() %>% 
+  mutate(
+    plot = map2(
+      data,
+      venuename,
+      ~.x %>% 
+        ggplot(aes(x = datadatetime)) +
+        geom_bar(aes(y = expected), stat = "identity", fill = '#beaed4') +
+        geom_line(aes(y = current), color = '#7fc97f', size = 1) +
+        # ggtitle(.y) +
+        scale_y_continuous(limits = c(0,150)) +
+        theme_minimal() +
+        theme(axis.title.x = element_blank(),
+              axis.title.y = element_blank(),
+              panel.grid.major.x = element_blank(),
+              panel.grid.minor.x = element_blank(),
+              panel.grid.minor.y = element_blank())
+    ),
+    # save = walk2(plot, venuename, ~ggsave(str_c('analysis/', .y, '-combo.png'), .x, units = 'in', width = 11, height = 7)),
+    save2 = walk2(plot, venuename, ~ggsave(str_c('analysis/svg/', .y, '-combo.svg'), .x, units = 'in', width = 11, height = 7))
+  ) %>% 
+  pull(plot)
