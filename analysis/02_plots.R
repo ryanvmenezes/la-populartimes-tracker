@@ -1,9 +1,7 @@
 library(tidyverse)
 library(lubridate)
 
-popularity = read_csv('clean/popularity-expected.csv') %>%
-  mutate(datadatetime = floor_date(datadatetime, unit = 'hour')) %>% 
-  distinct(datadatetime, venuename, typeofspace, .keep_all = TRUE)
+popularity = read_csv('clean/popularity-expected.csv') 
 
 popularity
 
@@ -29,12 +27,11 @@ ind.plots = popularity %>%
       venuename,
       ~.x %>% 
         ggplot(aes(x = datadatetime)) +
-        geom_bar(aes(y = expected), stat = "identity", fill = '#beaed4') +
-        geom_line(aes(y = current), color = '#7fc97f', size = 1) +
+        geom_bar(aes(y = expected), stat = "identity", fill = '#E8D9BA') +
+        geom_line(aes(y = current), color = '#5DBAAB', size = 1) +
         scale_y_continuous(limits = c(0,150)) +
         ggtitle(.y) +
-        theme_minimal() +
-        theme(axis.text.x = element_text(angle = 90))
+        theme_minimal()
     )
   )
 
@@ -62,13 +59,15 @@ ind.plots.svg = ind.plots %>%
     svgplot = map(
       plotobj,
       ~.x + 
+        # scale_x_(labels = function(x) str_c(month(x, label = TRUE, abbr = FALSE), ' ', day(x))) +
         theme(
           title = element_blank(),
           axis.title.x = element_blank(),
           axis.title.y = element_blank(),
           panel.grid.major.x = element_blank(),
           panel.grid.minor.x = element_blank(),
-          panel.grid.minor.y = element_blank()
+          panel.grid.minor.y = element_blank(),
+          panel.grid.major.y = element_line(linetype = "dotted")
         )
     )
   )

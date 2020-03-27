@@ -4,22 +4,37 @@ library(lubridate)
 library(tidyverse)
 
 plan(multisession)
+availableCores()
 
-# raw data
+# import ------------------------------------------------------------------
+
+# bring in jsons one by one
 
 data = tibble(file = str_c('output/', list.files('output/'))) %>% 
+  # in alpha/time order
   arrange(file) %>% 
   mutate(
-    datadatetime = str_replace(file, 'output/', ''),
-    datadatetime = str_replace(datadatetime, '.json', ''),
-    datadatetime = as_datetime(datadatetime, tz = 'America/Los_Angeles'),
-    jsondata = map(file, fromJSON),
-  ) %>% 
-  filter(date(datadatetime) > make_date(2020, 3, 20)) # start of observations
+    # convert filename to proper datetime
+    filedatetime = str_replace(file, 'output/', ''),
+    filedatetime = str_replace(filedatetime, '.json', ''),
+    filedatetime = as_datetime(filedatetime, tz = 'America/Los_Angeles'),
+    # round down to top of hour
+    datadatetime = floor_date(filedatetime, unit = 'hours'),
+    # bring in json
+    jsondata = map(file, fromJSON)
+  ) %>%
+  # keep only one observation per hour
+  distinct(datadatetime, .keep_all = TRUE) %>% 
+  # start of observations
+  filter(date(datadatetime) >= make_date(2020, 3, 21))
 
 data
 
-# current popularity by location at each time
+# is there exactly a one hour difference between each observation?
+
+sum(as.integer(data$datadatetime - lag(data$datadatetime)) > 1, na.rm = TRUE) == 0
+
+# current popularity ------------------------------------------------------
 
 currentpop = data %>% 
   transmute(
@@ -27,20 +42,22 @@ currentpop = data %>%
     currentpop = map(
       jsondata,
       ~.x %>% 
+        # flatten json into tibble
         as_tibble() %>% 
+        # get these vars
         select(id, name, current_popularity)
     )
   ) %>% 
   unnest(c(currentpop)) %>% 
   mutate(
     current_popularity = replace_na(current_popularity, 0),
-    dayofweek = lubridate::wday(datadatetime, label = TRUE),
-    hourofday = lubridate::hour(datadatetime)
+    dayofweek = wday(datadatetime, label = TRUE),
+    hourofday = hour(datadatetime)
   )
 
 currentpop
 
-# list of places being tracked
+# place info from google maps ---------------------------------------------
 
 gmapsplaces = data %>% 
   transmute(
@@ -49,7 +66,8 @@ gmapsplaces = data %>%
       ~.x %>% 
         as_tibble() %>% 
         select(id, name, address, types, coordinates) %>% 
-        flatten()
+        # need to separate out coordinates
+        jsonlite::flatten()
     )
   ) %>% 
   unnest(c(placeinfo)) %>% 
@@ -60,9 +78,9 @@ gmapsplaces
 
 gmapsplaces %>% write_csv('clean/google-maps-place-info.csv')
 
-# popular times
+# popular times -----------------------------------------------------------
 
-## cleaning up the data
+# cleanup
 
 poptimesclean = data %>%
   transmute(
@@ -76,9 +94,13 @@ poptimesclean = data %>%
   ) %>% 
   unnest(c(poptimes)) %>% 
   mutate(
+    # safely transform the table
     query = future_map(
       populartimes,
       safely(
+        # convert 24x7 table into one WIDE table
+        # column names: Mon_h0, Mon_h1, ... Sun_h23
+        # this will help to track changes later with a distinct query
         ~.x %>% 
           as_tibble() %>% 
           mutate(data = map_chr(data, str_c, collapse = '|')) %>% 
@@ -96,13 +118,8 @@ poptimesclean = data %>%
 
 poptimesclean
 
-## locations that don't consistently have the populartimes
-
-poptimesclean %>%
-  filter(error != 'NULL') %>% 
-  count(name)
-
-## cleaned popular times
+# filter out places that errored and unnest
+# this is all popular times ever recorded
 
 poptimes = poptimesclean %>% 
   anti_join(
@@ -118,50 +135,64 @@ poptimes = poptimesclean %>%
 poptimes
 
 # how often are the popular times changing?
-# if any of these are n > 1, there's been a change in the popular times data
+# if any location has > 1 distinct row, there's been a change in the popular times data
 
 expected.by.location = poptimes %>% 
   arrange(id, datadatetime) %>% 
+  # keep only the unique sequences of 24x7 hours
   distinct_at(vars(-datadatetime), .keep_all = TRUE)
 
 expected.by.location
 
-expected.by.location %>% 
-  write_csv('clean/expected-time-by-location.csv')
+expected.by.location %>% write_csv('clean/expected-time-by-location.csv')
 
 change.in.pop = expected.by.location %>% 
   count(id, name) %>% 
   filter(n > 1)
 
-change.in.pop %>% 
-  write_csv('clean/change-in-pop.csv')
+change.in.pop
 
-# joining currentpopularity and exppopularity for that hour
+change.in.pop %>% write_csv('clean/change-in-pop.csv')
+
+# join it all together ----------------------------------------------------
+
+# my places list
 
 places = read_csv('places.csv')
 
+places
+
 popularity.expected = currentpop %>% 
+  # right join to popularity matrix to filter
+  # this has popular times recorded every hour
   right_join(
     poptimes %>% 
       group_by(datadatetime, id, name) %>% 
       nest() %>% 
       ungroup()
   ) %>%
+  # bring in clean place names
   left_join(
     places,
     by = c('id' = 'gmapsid')
   ) %>% 
   mutate(
-    exppopularity = map2_chr(
+    # pull expected popular time from the matrix
+    expected.popularity = map2_chr(
       str_c(dayofweek, hourofday, sep = '_h'),
       data,
       ~.y %>% pull(.x)
     ),
-    exppopularity = as.integer(exppopularity)
+    expected.popularity = as.integer(expected.popularity)
   ) %>% 
-  select(datadatetime, venuename, typeofspace, current = current_popularity, expected = exppopularity)
+  select(datadatetime, venuename, typeofspace, current = current_popularity, expected = expected.popularity)
 
 popularity.expected
+
+# write out cleaned file --------------------------------------------------
+
+# date formatter to prevent dates being written in UTC time
+# need to convert them to characters first
 
 writetime = stamp('2020-10-20 23:30:47')
 
