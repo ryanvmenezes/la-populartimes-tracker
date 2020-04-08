@@ -16,7 +16,7 @@ comparison.chart = popularity %>%
 
 comparison.chart
 
-ggsave('analysis/plot.png', comparison.chart, units = 'in', width = 11, height = 7)
+ggsave('analysis/plot.png', comparison.chart, units = 'in', width = 22, height = 10)
 
 ind.plots = popularity %>% 
   group_by(venuename) %>% 
